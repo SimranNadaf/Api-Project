@@ -1,0 +1,15 @@
+{
+  "name": "api-project-book-management",
+  "version": "1.0.0",
+  "description": "this is a book management api project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "simran nadaf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
