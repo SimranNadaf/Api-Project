@@ -1,7 +1,11 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 
 //initilaze
 booky = express();
+
+booky.use(bodyParser.urlencoded({extended:true}));
+booky.use(bodyParser.json());
 
 //database
 const database = require("./database");
@@ -164,6 +168,44 @@ booky.get("/publication/book/:isbn", (req, res) => {
     return res.json({ getPublication });
   });
   
+/*
+ROUTE - /book/new
+Description - add a new book
+Access - public
+Parameters - none
+method - post
+*/
+booky.post("/book/new", (req, res)=>{
+    const newBook = req.body;
+    database.Books.push(newBook);
+    return res.json({Status : "Success", Books : database.Books})
+});
+
+/*
+ROUTE - /author/new
+Description - add a new author
+Access - public
+Parameters - none
+method - post
+*/
+booky.post("/author/new", (req, res)=>{
+  const newAuthor = req.body;
+  database.Authors.push(newAuthor);
+  return res.json({Status : "Success", Authors : database.Authors})
+});
+
+/*
+ROUTE - /publication/new
+Description - add a new publication
+Access - public
+Parameters - none
+method - post
+*/
+booky.post("/publication/new", (req, res)=>{
+  const newPublication = req.body;
+  database.Publications.push(newPublication);
+  return res.json({Status : "Success", Publications : database.Publications})
+});
 
 booky.listen(3000, () => {
   console.log("Server is up and running on port 3000");

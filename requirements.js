@@ -22,12 +22,17 @@
 
 //Author
 //we need an api:
-//to get all authors
-//to get a specific author
-//to get a list of authors based on book
+//to get all authors -Done
+//to get a specific author - Done
+//to get a list of authors based on book - Done
 
 //Publication
 //we need an api
-//to get all publication
-//to get a specific publication
-//to get a list of publication based on a book
+//to get all publication -  done
+//to get a specific publication - Done
+//to get a list of publication based on a book -Done
+
+//POST REQUESTS
+//ADD A NEW BOOK - Done
+// ADD A NEW AUTHOR - Done
+// ADD A NEW PUBLICATION - Done
