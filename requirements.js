@@ -36,3 +36,12 @@
 //ADD A NEW BOOK - Done
 // ADD A NEW AUTHOR - Done
 // ADD A NEW PUBLICATION - Done
+
+/*******PUT REQUEST********/
+//update book details if the author is changed
+
+/**********DELETE REQUESTS***********/
+//Delete a book
+//Delete a author from book
+//Delete a author from book and book from author
+

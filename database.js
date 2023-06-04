@@ -5,6 +5,17 @@ const Books=[{
     language:"en",
     numpage:"200",
     author:[1,2],
+    publication:1,
+    category:['motivation','boigraphy']
+},
+{
+    ISBN:"5363book",
+    title:"just do it",
+    pubdate:"27-05-2023",
+    language:"en",
+    numpage:"200",
+    author:[1,2],
+    publication:2,
     category:['motivation','boigraphy']
 }];
 
