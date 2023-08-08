@@ -38,10 +38,10 @@
 // ADD A NEW PUBLICATION - Done
 
 /*******PUT REQUEST********/
-//update book details if the author is changed
+//update book details if the publication is changed - Done
 
 /**********DELETE REQUESTS***********/
-//Delete a book
-//Delete a author from book
-//Delete a author from book and book from author
+//Delete a book - Done 
+//Delete a author from book - Done
+//Delete a author from book and book from author - Done
 
